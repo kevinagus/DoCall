@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/visit_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <TextView
+        android:id="@+id/tv_visit_symptoms"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Sintomi:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fieldTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/visit_symptoms"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="@dimen/fieldText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_visit_symptoms"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_visit_doctor"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="53dp"
+        android:text="Medico: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fieldTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_visit_symptoms" />
+
+    <TextView
+        android:id="@+id/visit_doctor"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textSize="@dimen/fieldText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_visit_doctor"
+        app:layout_constraintTop_toBottomOf="@+id/visit_symptoms" />
+
+    <TextView
+        android:id="@+id/tv_visit_place"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Luogo:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fieldTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_visit_doctor" />
+
+    <TextView
+        android:id="@+id/visit_address"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textSize="@dimen/fieldText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_visit_place"
+        app:layout_constraintTop_toBottomOf="@+id/visit_doctor" />
+
+    <TextView
+        android:id="@+id/tv_visit_data"
+        android:layout_width="110dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Data visita:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fieldTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_visit_place" />
+
+    <TextView
+        android:id="@+id/visit_date"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textSize="@dimen/fieldText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_visit_data"
+        app:layout_constraintTop_toBottomOf="@+id/visit_address" />
+
+    <Button
+        android:id="@+id/annullaPrenotazione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginStart="136dp"
+        android:text="Annulla"
+        android:textColor="#FFF"
+        android:elevation="10dp"
+        android:translationZ="6dp"
+        android:background="@drawable/rounded_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

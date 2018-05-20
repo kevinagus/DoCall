@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">DoCall</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_codiceFiscale">Codice Fiscale</string>
+    <string name="avviso">Registrazione</string>
+    <string name="info_registrazione">Ti invieremo una mail per confermare il tuo indirizzo di posta ed impostare la password</string>
+    <string name="prompt_password">Password</string>
+    <string name="question">Non hai un account?</string>
+    <string name="register">Registrati</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_accedi">Accedi</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="posizioneField">"Indica la posizione della visita sulla mappa: "</string>
+    <string name="sintomiField">"Sintomi"</string>
+    <string name="buttonProcedi">"Procedi"</string>
+    <string name="buttonPrenota">"Prenota"</string>
+    <string name="profiloNome">"Nome"</string>
+    <string name="profiloCognome">"Cognome"</string>
+    <string name="profiloCodice">"Codice fiscale"</string>
+    <string name="profiloDataNascita">"Data di nascita"</string>
+    <string name="profiloMedico">"Medico"</string>
+    <string name="title_activity_profilo">ProfiloActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="action_logout">Logout</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Profilo</string>
+    <string name="nav_book">Prenotazioni</string>
+
+    <string name="inserimentoSintomi">Inserisci i sintomi</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Prenotazione</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
